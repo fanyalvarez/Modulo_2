@@ -51,20 +51,3 @@ sumaDeDOsNumeros(100,20) //solo se ejectuta si existe console dentro de function
 
 let resultSuma = sumaDeDOsNumeros(10, 20)
 	console.log(resultSuma)
-
-
-
-
-
-
-
-
-
-
-
-
-/*
--pedir la frase
--regresar la palabra
--definir la palabra a buscar
-*/

@@ -64,7 +64,6 @@ console.log	 ("----OPERADORES DE ASIGNACION")
 */
  console.log(7 == 7)   //comparacion de los valore-resultado es true
  console.log("7" == 7) //comparacion de los valore-resultado es true
-
  console.log("7" === 7)//comparacion de los valore y tipo -resultado es false
 
 /*

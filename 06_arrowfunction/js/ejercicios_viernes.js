@@ -5,7 +5,6 @@ console.log("-----1-----")
 let laPalabra = ("La palabra mas larga")
 let separar = laPalabra.split(" ")
 
-separar.length(0) ? "verdadero" : "falso"
 
 console.log(separar)
 
@@ -21,8 +20,11 @@ console.log("-----4-----")
 
 console.log("-----5-----")
 //Crear un programa que permita comparar dos palabras dadas por el usuario y determine si son iguales o no
+let palabraUno = "uno"
+let palabraDos
 
-console.log("-----6-----")
+
+console.log("-----6ok-----")
 //Crear un programa que permita a una cadena de texto muestre el caracter '-' entre cada caracter de la cadena.
 
 	let texto= "hola koders, como estan?!!"
