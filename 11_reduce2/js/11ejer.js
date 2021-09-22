@@ -1,4 +1,3 @@
-/*Ejercicio:*/
 const songsData = [
 	{
 		name: "¿Dónde jugarán los niños?",
@@ -64,22 +63,17 @@ const songsData = [
 		},
 	}
 ]
-/*Obtener una lista de strings con el siguiente formato:
-"La cancion {name} es de {banda}"
-*/
 
-map y Filer
+// agrupar la scanciones por bandas
 
-/*crear una funcion que me permita Obtener las canciones que contengan un criterio de busqueda
-criterio: cel
-[
-    {
-        name: "La celula que explota",
-        band: "Jaguares",
-        releaseYear: "1999",
-        statistics: {
-            likes: 12000,
-            reproductions: 23421
-        },
-    }
-]*/
+const stringToCameCase = string => {
+	let stringToCameCase = string.split(" ").//reduce((accum, word, index =>{
+		console.log(word)
+		let newString = word.toLoweCase()
+
+		return index !== 0
+			? accum + word.charAt(0).toUpperCase() + word.slice(1) 
+			:accum + newString
+			
+	
+}
