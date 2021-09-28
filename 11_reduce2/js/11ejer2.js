@@ -103,7 +103,9 @@ console.log (`La edad promedio de los votantes fue de ${promedioNoVoted}`)
 console.log("------el porcentaje de votantes vs no votante---")
 let porcentVoted = (listaDeVotantes.length/arrayPersons.length)*100
 let porcentNoVoted = (listaDeNoVotantes.length/arrayPersons.length)*100
-// comproabacion     let global	= porcentVoted + porcentNoVoted  console.log(global)
+// comproabacion     
+let global	= porcentVoted + porcentNoVoted  
+console.log(global)
 console.log(`la estadistica de los votantes fue de ${porcentVoted}% vs los no votantes del ${porcentNoVoted}%`)
 
 
@@ -118,7 +120,8 @@ const listMujeres = listaDeVotantes => {
 	return mujeres
 }
 let mujeresVotantes = listMujeres(listaDeVotantes)
-	//console.log(mujeresVotantes)
+	//
+	console.log(mujeresVotantes)
 let porcentajeMujeres = (mujeresVotantes.length / listaDeVotantes.length) * 100
 console.log(`El porcentaje de mujeres votante fue de ${porcentajeMujeres}`)
 

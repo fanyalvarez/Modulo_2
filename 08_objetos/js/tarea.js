@@ -143,12 +143,12 @@ console.log(avgAsignatures)
 //- Obtener el promedio indivual de cada mentor
 const getAverForMentor = scoresArray => {
     let acumMentor = 0
-   // let scoresQty = scoresArray.length
+   let scoresQty = scoresArray.length
     scoresArray.forEach((scoreMentor) => {
         let valueScore = scoreMentor.score
         acumMentor += valueScore
     })
-  //  let avgMentor = acumMentor / scoresQty
+    let avgMentor = acumMentor / scoresQty
     return avgMentor
 }
 
